@@ -1,0 +1,119 @@
+/* PomodoroTimer.css (you can name it as you like) */
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Lato:wght@700&family=Outfit:wght@100;300;400;500;700&family=Poppins:wght@400;700&family=Roboto+Condensed&family=Roboto:ital,wght@0,100;1,300&display=swap");
+
+.heading h1 {
+  color: white;
+  font-size: 3.5rem;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.mainContainer {
+  margin: 3.4rem auto;
+  height: 45rem;
+  width: 40rem;
+  border-top: 0.8rem solid rgb(224, 227, 145);
+  border-left: 0.9rem solid rgb(224, 227, 145);
+  border-radius: 1.9rem;
+  box-shadow: 30px 20px 10px rgb(207, 29, 17);
+}
+
+.pomodoro-container {
+  margin-top: 4rem;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  height: 30rem;
+  width: 40rem;
+}
+
+#timerEle {
+  font-weight: bold;
+  color: rgb(211, 211, 227);
+}
+
+.timer {
+  padding-top: 4rem;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.timer #timeText {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: rgb(232, 239, 18);
+  height: 2.2rem;
+  width: 4.5rem;
+  text-align: center;
+  box-shadow: 5px 3px 3px rgb(230, 201, 105);
+  border-radius: 99%;
+}
+
+button {
+  font-size: 1.7rem;
+  font-weight: 700;
+  padding: 1rem;
+  margin: 8rem 2.5rem 2rem 2.5rem;
+  height: 3.9rem;
+  width: 10rem;
+  cursor: pointer;
+  border: none;
+  background-color: rgb(58, 136, 220);
+  color: #efeee1;
+  border-radius: 4px;
+}
+
+.homeContainer button{
+  background-color: rgb(152, 226, 41);
+  color: rgb(232, 241, 192);
+  font-size: 2.1rem;
+  letter-spacing: .1rem;
+  border-radius: 0.6rem;
+  border-top: 0.3rem solid rgb(224, 227, 145);
+  border-left: 0.5rem solid rgb(224, 227, 145);
+  box-shadow: 25px 12px 15px rgb(207, 29, 17);
+  padding-top: .7rem;
+}
+
+button:hover {
+  background-color: #70c8eb;
+}
+
+.button-container {
+  margin-top: 1rem;
+}
+
+@media screen  and (max-width: 600px) and (min-width: 500px) {
+    .mainContainer{
+      margin: 9.4rem auto;
+    }
+    .homeContainer button {
+      margin-top: .1rem;
+    }
+}
+
+@media screen  and (max-width: 499px) and (min-width: 395px) {
+  .mainContainer{
+    margin: 10.4rem auto;
+    height: 40rem;
+    width: 35rem;
+    border-top: 1.1rem solid rgb(224, 227, 145);
+  border-left: 1.4rem solid rgb(224, 227, 145);
+  border-radius: 2.9rem;
+  box-shadow: 30px 20px 10px rgb(207, 29, 17);
+  }
+  .mainContainer > .heading > h1{
+    font-size: 23px;
+  }
+  .mainContainer > .pomodoro-container{
+    margin-top: 20px;
+    height: 25rem;
+    width: 35rem;
+  }
+  .homeContainer button {
+    margin-top: .1rem;
+  }
+}
